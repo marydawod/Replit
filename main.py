@@ -56,3 +56,34 @@ grade = (float)(category_1+category_2+category_3)
 
 print("Your grade is "+(str(round(grade, 2)))+"%")
 
+#----------------------------------------------------------------------------------#
+
+letter_grade = ""
+
+if(grade > 100):
+  print("Grade above 100 are invalid")
+#90 to 100 constitutes an A.
+elif(grade <= 100 and grade > 89):
+  print("You received an A! You're doing great and keep up the good work!")
+  letter_grade = "A"
+#80 to 89 constitutes a B.
+elif(grade <= 89 and grade > 79):
+  print("You received a B. You're working really hard, and you're close to an A!")
+  letter_grade = "B"
+#70 to 79 constitutes a C.
+elif(grade <= 80 and grade > 69):
+  print("You received a C. Tutoring is available.")
+  letter_grade = "C"
+#60 to 69 constitutes a D.
+elif(grade <= 69 and grade > 59):
+  print("You received a D. It's time to hit the books.")
+  letter_grade = "D"
+#0 to 59 constitutes an F.
+elif(grade <= 59 and grade >= 0):
+  print("You received a F. Try studying next time.")
+  letter_grade = "F"
+#You can't have a negative grade :)
+elif(grade < 0):
+  print("Grades below 0 are invalid")
+
+#----------------------------------------------------------------------------------#
