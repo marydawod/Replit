@@ -1,4 +1,5 @@
 from GPA import foo
+
 #imports the def foo(letter_grade) from GPA.py to main.py
 
 #In this marking period, there will be three homework grades, two quiz grades, and one test grade.
@@ -90,3 +91,12 @@ elif(grade < 0):
 pi = (foo(letter_grade))
 print(pi)
 
+#class Grade:
+#  def find(letter):
+#    print(str(letter))
+
+#y = str(letter_grade)
+#print(y)
+#print("After rechecking your GPA, it is confirmed that the following is your GPA:")
+#pii = Grade()
+#pii.find((y))

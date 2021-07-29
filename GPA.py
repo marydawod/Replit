@@ -1,3 +1,6 @@
+def __init__(self):
+    self.x = 0.00
+    self.y = 0.00
 def foo(letter_grade):
     gpaA = "4.00"
     gpaB = "3.00"
